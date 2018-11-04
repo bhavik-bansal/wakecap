@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4d4d4d</color>
+    <!--<color name="colorPrimaryDark">#3e3e3e</color>-->
+    <!--    <color name="colorPrimary">#607D8B</color>-->
+    <color name="colorPrimaryDark">#EEEEEE</color>
+    <color name="colorAccent">#9a9a9a</color>
+    <color name="color_accent">#593b4f</color>
+    <color name="empty_notification_header">#a19690</color>
+    <color name="empty_notification_content">#007aff</color>
+    <color name="group_chat_icon">#4385f5</color>
+    <color name="white_smoke">#f5f5f5</color>
+    <color name="white_30">#f9f9f9</color>
+    <color name="black">#000000</color>
+    <color name="header_blue">#e3f2fd</color>
+
+    <color name="drawer_item_selected">#4385F5</color>
+    <color name="drawer_item_background">@color/statusbar_primary</color>
+    <color name="chip_background">#e0e0e0</color>
+    <color name="textColorPrimary">#3e3e3e</color>
+    <color name="white">#ffffff</color>
+    <color name="white_90">#ccd9d8d8</color>
+    <color name="color_not_started">#eeeeee</color>
+    <color name="color_statusbar">#BDBDBD</color>
+    <color name="color_toolbar">#f5f5f5</color>
+    <color name="grey_30">#dfdfdf</color>
+    <color name="grey_40">#d6d6d6</color>
+
+    <color name="gray_90">#aaaaaa</color>
+    <color name="light_gray">#f2f2f2</color>
+    <color name="project_toolbar_color">#f5f5f5</color>
+    <color name="title_text_color">#333333</color>
+    <color name="action_btn_border_color">#808080</color>
+    <color name="user_name_color">#666666</color>
+    <color name="link_color">#2f6699</color>
+    <color name="bottom_btn_color">@color/colorPrimary</color>
+    <color name="user_message_bg_color">#dbeaf6</color>
+    <color name="btn_color">#48affb</color>
+    <color name="fab_color">#F06260</color>
+    <color name="fab_color_inverse">#95B351</color>
+    <color name="toolbar">#593b4f</color>
+    <color name="item_selected">#000</color>
+    <color name="gray_80">#6E6F71</color>
+    <color name="nav_drawer">#593b4f</color>
+    <color name="statusbar_primary">#4a3141</color>
+
+    <color name="refresh_progress_1">@color/color_accent</color>
+    <color name="refresh_progress_2">@color/colorPrimaryDark</color>
+    <color name="refresh_progress_3">@color/colorPrimary</color>
+
+    <color name="red">#f06260</color>
+    <color name="red_dark">#ec3431</color>
+    <color name="yellow">#f6d601</color>
+    <color name="yellow_dark">#C9B001</color>
+    <color name="selector_red">#fdacab</color>
+    <color name="green">#32b67a</color>
+    <color name="green_dark">#278e5f</color>
+    <color name="selector_green">#a1fcd3</color>
+    <color name="transparent_white">#00ffffff</color>
+
+    <color name="light_blue">#5488FF</color>
+    <color name="border_blue">#4385f5</color>
+    <color name="light_yellow">#FFC75E</color>
+    <color name="link_text_color">#4385F5</color>
+    <color name="black_70">#cc202020</color>
+    <color name="mention_blue">#cc0285dc</color>
+    <color name="black_80">#cc000000</color>
+    <color name="black_90">#e6000000</color>
+    <color name="black_95">#f2000000</color>
+    <color name="separator_color">#f2787878</color>
+    <color name="white_60">#99ffffff</color>
+
+    <color name="error_view_text">#656565</color>
+    <color name="error_view_text_dark">#CC000000</color>
+    <color name="error_view_text_light">#858585</color>
+
+    <color name="error_view_retry_button_background">#30000000</color>
+    <color name="error_view_retry_button_background_stroke">#50000000</color>
+    <color name="gray_blue">#ECEFF1</color>
+    <color name="selected_indicator_stroke">#4a4a4a</color>
+    <color name="selected_indicator_bg">#adda7e</color>
+    <color name="indicator_stroke">#d5d5d5</color>
+    <color name="walkthrough_headline">#4a4a4a</color>
+    <color name="walkthrough_bg">#E7E7E7</color>
+    <color name="gray">#dddddd</color>
+    <color name="lightBackground">#ECEFF1</color>
+
+
+    <color name="darkSky">#3E97D8</color>
+    <color name="lightSky">#42A1E6</color>
+
+    <color name="workspace_bg">#252932</color>
+    <color name="workspace_head_color">#fff</color>
+
+    <color name="error_color">#ee1c25</color>
+    <color name="status_bar_color">#1E5882</color>
+
+
+    <!--100% — FF-->
+    <!--95% — F2-->
+    <!--90% — E6-->
+    <!--85% — D9-->
+    <!--80% — CC-->
+    <!--75% — BF-->
+    <!--70% — B3-->
+    <!--65% — A6-->
+    <!--60% — 99-->
+    <!--55% — 8C-->
+    <!--50% — 80-->
+    <!--45% — 73-->
+    <!--40% — 66-->
+    <!--35% — 59-->
+    <!--30% — 4D-->
+    <!--25% — 40-->
+    <!--20% — 33-->
+    <!--15% — 26-->
+    <!--10% — 1A-->
+    <!--5% — 0D-->
+    <!--0% — 00-->
+</resources>

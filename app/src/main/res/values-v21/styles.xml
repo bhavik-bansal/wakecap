@@ -1,0 +1,22 @@
+<resources>
+
+    <!--System built-in actionbar theme -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:textColorPrimary">@color/colorAccent</item>
+        <item name="android:colorControlNormal">@color/colorAccent</item>
+        <item name="android:actionMenuTextColor">@color/black</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="@android:style/TextAppearance">
+       <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+</resources>

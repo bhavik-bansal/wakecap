@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bottom_navigation_titles">
+        <item>@string/vendors</item>
+        <item>@string/plan_event</item>
+        <item>@string/hire</item>
+        <item>@string/user_profile</item>
+        <item>@string/more</item>
+    </string-array>
+
+    <string-array name="toolbar_titles">
+        <item>@string/vendors</item>
+        <item>@string/plan_event</item>
+        <item>@string/hire</item>
+        <item>@string/user_profile</item>
+        <item>@string/more</item>
+    </string-array>
+
+    <array name="bottom_navigation_icons_inactive">
+        <item>@drawable/ic_bulb</item>
+        <item>@drawable/ic_bulb</item>
+        <item>@drawable/ic_bulb</item>
+        <item>@drawable/ic_bulb</item>
+        <item>@drawable/ic_bulb</item>
+    </array>
+
+    <array name="bottom_navigation_icons_active">
+        <item>@drawable/ic_bulb_yellow</item>
+        <item>@drawable/ic_bulb_yellow</item>
+        <item>@drawable/ic_bulb_yellow</item>
+        <item>@drawable/ic_bulb_yellow</item>
+        <item>@drawable/ic_bulb_yellow</item>
+    </array>
+
+    <string name="vendors">Vendors</string>
+    <string name="plan_event">Plan Event</string>
+    <string name="hire">Hire us</string>
+    <string name="user_profile">User Profile</string>
+    <string name="more">Menu</string>
+</resources>
