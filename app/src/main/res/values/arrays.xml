@@ -33,9 +33,5 @@
         <item>@drawable/ic_bulb_yellow</item>
     </array>
 
-    <string name="vendors">Vendors</string>
-    <string name="plan_event">Plan Event</string>
-    <string name="hire">Hire us</string>
-    <string name="user_profile">User Profile</string>
-    <string name="more">Menu</string>
+
 </resources>

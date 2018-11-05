@@ -16,6 +16,7 @@ import com.booko.fragments.HomeFragment;
 import com.booko.fragments.MoreFragment;
 import com.booko.utils.AppLog;
 import com.booko.utils.Constants;
+import com.booko.viewmodel.HomeViewModel;
 
 import java.util.ArrayList;
 
@@ -29,8 +30,8 @@ public class MainActivity extends BaseActivity {
     public static final int VENDOR_FRAGMENT = 0;
     public static final int PLAN_FRAGMENT = 1;
     public static final int HIRE_FRAGMENT = 2;
-    public static final int USER_PROFILE_FRAGMENT = 4;
-    public static final int MORE_FRAGMENT = 3;
+    public static final int USER_PROFILE_FRAGMENT = 3;
+    public static final int MORE_FRAGMENT = 4;
 
 
     private int CURRENT_TAB = VENDOR_FRAGMENT;
@@ -41,7 +42,8 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         setToolbar(getString(R.string.city_name),false);
         ahBottomNavigation = (AHBottomNavigation) findViewById(R.id.bottom_navigation);
-
+        setBottomNavigations();
+        new HomeViewModel().checkApi();
     }
 
     private void setBottomNavigations() {
@@ -95,8 +97,8 @@ public class MainActivity extends BaseActivity {
         }
     }
     public void loadConfigurations() {
-        ahBottomNavigation.setAccentColor(getResources().getColor(R.color.white));
-        ahBottomNavigation.setInactiveColor(getResources().getColor(R.color.white));
+        ahBottomNavigation.setAccentColor(getResources().getColor(R.color.black_70));
+        ahBottomNavigation.setInactiveColor(getResources().getColor(R.color.black_70));
         ahBottomNavigation.setBehaviorTranslationEnabled(false);
         ahBottomNavigation.setDefaultBackgroundColor(getResources().getColor(R.color.toolbar));
         ahBottomNavigation.setTitleState(AHBottomNavigation.TitleState.ALWAYS_SHOW);

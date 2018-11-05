@@ -13,6 +13,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -27,15 +28,26 @@ android {
 }
 
 dependencies {
+    compileOnly 'javax.annotation:jsr250-api:1.0'
+    annotationProcessor "com.google.dagger:dagger-compiler:${rootProject.daggerVersion}"
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //multidex
+    implementation "com.android.support:multidex:${rootProject.multidexVersion}"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${rootProject.kotlinVersion}"
     implementation "com.android.support:appcompat-v7:${rootProject.androidLibraryVersion}"
     implementation "com.android.support:design:${rootProject.androidLibraryVersion}"
     implementation "com.android.support:support-v4:${rootProject.androidLibraryVersion}"
     implementation "com.android.support.constraint:constraint-layout:${rootProject.constraintVersion}"
+    implementation "com.android.support:cardview-v7:${rootProject.androidLibraryVersion}"
+    implementation "com.android.support:recyclerview-v7:${rootProject.androidLibraryVersion}"
+    implementation "com.squareup.retrofit2:retrofit:${rootProject.retrofitVersion}"
+    implementation "com.squareup.retrofit2:converter-gson:${rootProject.retrofitVersion}"
+    implementation "com.squareup.okhttp3:okhttp:${rootProject.okHttpVersion}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${rootProject.okHttpVersion}"
+    implementation "com.google.dagger:dagger-compiler:${rootProject.daggerVersion}"
+    implementation "com.google.dagger:dagger:${rootProject.daggerVersion}"
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
     implementation 'com.aurelhubert:ahbottomnavigation:2.2.0'
-    implementation 'com.android.support:support-v4:27.1.1'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'

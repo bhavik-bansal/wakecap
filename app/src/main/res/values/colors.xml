@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#4d4d4d</color>
+    <color name="colorPrimary">#EF3158</color>
     <!--<color name="colorPrimaryDark">#3e3e3e</color>-->
     <!--    <color name="colorPrimary">#607D8B</color>-->
-    <color name="colorPrimaryDark">#EEEEEE</color>
-    <color name="colorAccent">#9a9a9a</color>
+    <color name="colorPrimaryDark">#EF3158</color>
+    <color name="colorAccent">#F57D48</color>F57D48
     <color name="color_accent">#593b4f</color>
     <color name="empty_notification_header">#a19690</color>
     <color name="empty_notification_content">#007aff</color>
@@ -22,7 +22,7 @@
     <color name="white_90">#ccd9d8d8</color>
     <color name="color_not_started">#eeeeee</color>
     <color name="color_statusbar">#BDBDBD</color>
-    <color name="color_toolbar">#f5f5f5</color>
+    <color name="color_toolbar">#f5f5f5</color>BaseFragment
     <color name="grey_30">#dfdfdf</color>
     <color name="grey_40">#d6d6d6</color>
 
@@ -38,7 +38,7 @@
     <color name="btn_color">#48affb</color>
     <color name="fab_color">#F06260</color>
     <color name="fab_color_inverse">#95B351</color>
-    <color name="toolbar">#593b4f</color>
+    <color name="toolbar">#FFFFFF</color>
     <color name="item_selected">#000</color>
     <color name="gray_80">#6E6F71</color>
     <color name="nav_drawer">#593b4f</color>
@@ -83,7 +83,8 @@
     <color name="walkthrough_headline">#4a4a4a</color>
     <color name="walkthrough_bg">#E7E7E7</color>
     <color name="gray">#dddddd</color>
-    <color name="lightBackground">#ECEFF1</color>
+    <color name="darkGray">#dddddd</color>
+    <color name="lightBackground">#656565</color>
 
 
     <color name="darkSky">#3E97D8</color>

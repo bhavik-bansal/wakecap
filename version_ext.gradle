@@ -40,4 +40,7 @@ ext {
 
     //Multidex Version
     multidexVersion = '1.0.1'
+
+    //Dagger Version
+    daggerVersion = '2.11'
 }
