@@ -76,6 +76,7 @@
     </style>
 
     <style name="DefaultTextBoldItalicTheme" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textStyle">italic|bold</item>
         <item name="fontPath">@string/font_path_bold_italic</item>
     </style>
 

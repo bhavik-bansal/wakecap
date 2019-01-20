@@ -1,16 +1,10 @@
 <resources>
-    <string name="app_name">Booko</string>
+    <string name="app_name">Wakecap</string>
     <string name="font_path">fonts/OpenSans-Regular.ttf</string>
     <string name="font_path_bold">fonts/OpenSans-Bold.ttf</string>
     <string name="font_path_semibold">fonts/OpenSans-SemiBold.ttf</string>
     <string name="font_path_bold_italic">fonts/OpenSans-BoldItalic.ttf</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="vendors">Vendors</string>
-    <string name="plan_event">Plan Event</string>
-    <string name="hire">Hire us</string>
-    <string name="user_profile">User Profile</string>
     <string name="more">Menu</string>
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="city_name">Ahmedabad</string>
 </resources>

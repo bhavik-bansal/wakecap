@@ -36,6 +36,7 @@
             android:layout_marginLeft="@dimen/common_10_dp"
             android:layout_marginStart="@dimen/common_10_dp"
             android:layout_weight="1"
+            android:textSize="@dimen/h3"
             android:textColor="@color/white"
             android:textStyle="bold" />
 

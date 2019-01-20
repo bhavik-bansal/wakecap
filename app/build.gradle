@@ -5,11 +5,11 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion rootProject.compileSdkVersion
     defaultConfig {
-        applicationId "com.booko"
-        minSdkVersion 15
-        targetSdkVersion 27
+        applicationId "com.wakecap"
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -43,11 +43,13 @@ dependencies {
     implementation "com.squareup.retrofit2:retrofit:${rootProject.retrofitVersion}"
     implementation "com.squareup.retrofit2:converter-gson:${rootProject.retrofitVersion}"
     implementation "com.squareup.okhttp3:okhttp:${rootProject.okHttpVersion}"
-    implementation "com.squareup.okhttp3:logging-interceptor:${rootProject.okHttpVersion}"
     implementation "com.google.dagger:dagger-compiler:${rootProject.daggerVersion}"
     implementation "com.google.dagger:dagger:${rootProject.daggerVersion}"
+    implementation "android.arch.lifecycle:extensions:${rootProject.lifecycleVersion}"
+    implementation "android.arch.lifecycle:viewmodel:${rootProject.lifecycleVersion}"
+    debugImplementation 'com.readystatesoftware.chuck:library:1.1.0'
+    releaseImplementation 'com.readystatesoftware.chuck:library-no-op:1.1.0'
     implementation 'uk.co.chrisjenx:calligraphy:2.3.0'
-    implementation 'com.aurelhubert:ahbottomnavigation:2.2.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
